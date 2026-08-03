@@ -2,7 +2,7 @@
 
 > Living checklist. Updated as work progresses so everyone knows what is done **right now**.
 
-**Last updated:** 2026-08-04 01:28 IST  
+**Last updated:** 2026-08-04 01:35 IST  
 **Owner:** Snigdha (`snigdha-0210`)  
 **Repo:** https://github.com/Snigdha-0210/CivicBridge_AI
 
@@ -22,8 +22,8 @@
 
 | Service | URL | Status |
 | --- | --- | --- |
-| **App** | https://civicbridge-ai.vercel.app | ✅ LIVE |
-| **API health** | https://civicbridge-ai.vercel.app/health | ✅ `{"status":"ok","gemini_configured":true}` |
+| **Website (use this)** | https://civicbridge-ai.vercel.app | ✅ LIVE |
+| API health (devs only) | https://civicbridge-ai.vercel.app/health | ✅ backend status check |
 | Inspect | https://vercel.com/snigdha-0210s-projects/civicbridge-ai | dashboard |
 
 ---
@@ -95,6 +95,7 @@ Without that domain, Firebase login on the live URL will fail even though the si
 | 2026-08-04 01:22 | Linked project; pushed env vars. |
 | 2026-08-04 01:25 | **Production LIVE** at https://civicbridge-ai.vercel.app — health OK, Gemini configured. |
 | 2026-08-04 01:28 | Pushed live URL + deploy configs to GitHub. Keys already on Vercel — no new keys needed from you for deploy. |
+| 2026-08-04 01:35 | Full smoke check: pages 200, `/health` OK, AI chat + explain OK. Only Firebase authorized domain left for login. |
 
 ---
 

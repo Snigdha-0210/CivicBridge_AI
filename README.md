@@ -10,9 +10,21 @@
 
 **CivicBridge AI** is an opportunity-intelligence platform for Indian citizens. It helps students, job seekers, founders, farmers, and families discover scholarships, internships, welfare schemes, and grants — then guides them with eligibility checks, document explanations, application roadmaps, and deadline tracking.
 
-**Live demo:** [https://civicbridge-ai.vercel.app](https://civicbridge-ai.vercel.app) · API health: [/health](https://civicbridge-ai.vercel.app/health)
-
 > Eligibility and AI guidance are **advisory**. Always confirm details and submit applications on the **official government portal**.
+
+---
+
+## Deployment
+
+| | |
+| --- | --- |
+| **Website** | [https://civicbridge-ai.vercel.app](https://civicbridge-ai.vercel.app) |
+| **Host** | Vercel (Next.js frontend + FastAPI AI backend) |
+| **Status tracker** | [DEPLOYMENT_STATUS.md](./DEPLOYMENT_STATUS.md) |
+
+Open the **Website** link above to use the live app. That is the public deployment URL.
+
+`/health` is **not** the website — it is a small backend status URL used to confirm the AI API is up (`{"status":"ok","gemini_configured":true}`). Ordinary visitors do not need it: [https://civicbridge-ai.vercel.app/health](https://civicbridge-ai.vercel.app/health)
 
 ---
 
