@@ -14,6 +14,15 @@
 
 ---
 
+## Problem Statement
+
+Government opportunities in India are abundant, but discovery is fragmented across portals, eligibility language is hard to parse, deadlines get missed, and citizens often rely on middlemen.
+
+**Full problem statement (PDF / Drive):**  
+[https://drive.google.com/file/d/1YCXMteweobFCmNhRFFj0VMfzB9vWzO0N/view?usp=drive_link](https://drive.google.com/file/d/1YCXMteweobFCmNhRFFj0VMfzB9vWzO0N/view?usp=drive_link)
+
+---
+
 ## Deployment
 
 | | |
