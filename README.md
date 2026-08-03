@@ -10,6 +10,8 @@
 
 **CivicBridge AI** is an opportunity-intelligence platform for Indian citizens. It helps students, job seekers, founders, farmers, and families discover scholarships, internships, welfare schemes, and grants — then guides them with eligibility checks, document explanations, application roadmaps, and deadline tracking.
 
+**Live demo:** [https://civicbridge-ai.vercel.app](https://civicbridge-ai.vercel.app) · API health: [/health](https://civicbridge-ai.vercel.app/health)
+
 > Eligibility and AI guidance are **advisory**. Always confirm details and submit applications on the **official government portal**.
 
 ---
@@ -39,7 +41,7 @@ CivicBridge brings the journey into one place:
 | Frontend | Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS, shadcn/ui, Framer Motion |
 | Backend | FastAPI, Google Gemini (`google-genai`) |
 | Auth & data | Firebase Authentication, Firestore, Firebase Storage |
-| Deploy target | Vercel (frontend) + any Python host for the API |
+| Deploy target | Vercel (Next.js + FastAPI via Services) |
 
 ---
 

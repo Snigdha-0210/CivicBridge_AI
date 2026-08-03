@@ -10,7 +10,10 @@ import { OPPORTUNITIES, DEMO_USER } from "./mock-data";
 import { REAL_SCHEMES } from "./schemes-data";
 import { enrichOpportunity, enrichOpportunities } from "./eligibility";
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8001";
+// Same-origin on Vercel (services rewrite /api + /health). Override with NEXT_PUBLIC_API_URL if needed.
+const API_BASE =
+  process.env.NEXT_PUBLIC_API_URL ??
+  (process.env.NODE_ENV === "production" ? "" : "http://localhost:8001");
 
 async function apiFetch<T>(
   path: string,
