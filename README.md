@@ -23,6 +23,13 @@ Government opportunities in India are abundant, but discovery is fragmented acro
 
 ---
 
+## Demo Video
+
+Watch the full product walkthrough on YouTube:  
+[https://youtu.be/-0bMpg27DJU](https://youtu.be/-0bMpg27DJU)
+
+---
+
 ## Deployment
 
 | | |
